@@ -13,7 +13,7 @@ import SalaryRouter from "./routes/salary.js"
 const app=express();
 app.use(express.static('public/uploads'))
 app.use(cors({
-    origin: 'http://localhost:5173', // Change to your frontend URL
+    origin: 'https://azhizen-erp.vercel.app/', // Change to your frontend URL
     credentials: true
 }));
 app.use(express.json());
